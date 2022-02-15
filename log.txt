@@ -1,0 +1,32 @@
+commit ec1df1fd146758ec4ac58fa8bd39af7df5be36aa
+Merge: 2a19abc 35c7c6a
+Author: Mukhammadamin <72244353+Mukhammadamin2002@users.noreply.github.com>
+Date:   Tue Feb 15 17:38:02 2022 +0500
+
+    Merge pull request #1 from Mukhammadamin2002/dev
+    
+    dev branch merged
+
+commit 35c7c6ae879276379f6d48c6496695778cda5bba
+Author: Abdullaev2002 <mukhammadaminabdullaev01082002@gmail.com>
+Date:   Tue Feb 15 10:08:01 2022 +0500
+
+    add/test-file
+
+commit f96cbb887ed7d0a201ebe44233b8bc7e60bf380c
+Author: Abdullaev2002 <mukhammadaminabdullaev01082002@gmail.com>
+Date:   Mon Feb 14 23:59:19 2022 +0500
+
+    second commit
+
+commit 2a19abc8ee16be2570664e3cd4d3fb2c2c6c7edb
+Author: Abdullaev2002 <mukhammadaminabdullaev01082002@gmail.com>
+Date:   Mon Feb 14 23:02:40 2022 +0500
+
+    initial commit
+
+commit b21ab77c108cfc239fb04a60a0b3890313a9bc24
+Author: Mukhammadamin <72244353+Mukhammadamin2002@users.noreply.github.com>
+Date:   Mon Feb 14 22:50:30 2022 +0500
+
+    Initial commit
