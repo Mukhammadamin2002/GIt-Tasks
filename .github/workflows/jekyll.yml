@@ -37,8 +37,8 @@ jobs:
     - name: Print System Date
       run: date
     - name: Print Variables content
-      run: echo Day - "$DAY_OF_THE_MONTH\n"; Month - "$MONTH"; Year - "$YEAR"
-    - name: Print favorite day of week
+      run: echo -e "Day - $DAY_OF_THE_MONTH\nMonth - $MONTH\nYear - $YEAR"
+    - name: Print my favorite day of week
       run: echo "My favorite day of week is $FAVORITE_DAY_OF_WEEK"
     - name: We are getting *** becouse of
       run: echo "Actions Secrets is used for hiding datas. Secrets will not be available during execution."
