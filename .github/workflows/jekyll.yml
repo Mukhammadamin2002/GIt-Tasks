@@ -21,21 +21,19 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Listing current dir files and folder
-      run:
-        for i in $(ls .); do echo $i; done
+      run: for i in $(ls .); do echo $i; done
     - name: Print content of Log file
-        cat log.txt
+      run: cat log.txt
     - name: Print DEPLOY_VER variable
-        echo "Hello from $DEPLOY_VER commit"
-        
+      run: echo "Hello from $DEPLOY_VER commit"
+
   stage2:
     needs: stage1
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Echo day of the month 
-      run: 
-        echo $DAY_OF_THE_MONTH
+      run: echo $DAY_OF_THE_MONTH
     - name: Print System Date
       run: date
     - name: Print Variables content
